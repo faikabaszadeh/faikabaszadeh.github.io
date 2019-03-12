@@ -56,6 +56,8 @@
       width: 250px;
       height: 250px;
       background: url("../img/portrait.jpg");
+      background-position: center;
+      background-size: contain;
       border-radius: 50%;
       border: solid 3px #eece1a; }
   .menu .nav-item {
@@ -165,7 +167,7 @@ main {
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
-    border-radius: 50%;
+    border-radius: 5px;
     border: #eece1a 3px solid; }
   .about-info .bio {
     grid-area: bio;
